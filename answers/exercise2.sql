@@ -1,1 +1,1 @@
-SELECT * FROM Students WHERE LOWER(Students.city) LIKE 'a%' OR 'c%' OR 's%' ;
+SELECT * FROM Students WHERE LOWER(Students.city) LIKE 'a%' OR LOWER(Students.city) LIKE 'c%' OR LOWER(Students.city) LIKE 's%';
